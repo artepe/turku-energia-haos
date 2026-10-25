@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Turku EnergiaOnline (epavirallinen)",
+        "description": "Dokumentoimaton rajapinta. Anna omat tietosi vain Home Assistantissa. PT15M-varttimittaus on kokeellinen.",
+        "data": {
+          "customer_code": "Asiakastunnus",
+          "metering_point_code": "Käyttöpaikan tunnus",
+          "api_key": "API-tilausavain",
+          "related_metering_point_code": "Liittyvän käyttöpaikan tunnus (valinnainen)",
+          "weather_location": "Sääpaikka (valinnainen)",
+          "resolution": "Mittausväli"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Palvelu esti käytön",
+      "cannot_connect": "Päiväkulutuksen haku epäonnistui; tarkista asetukset"
+    },
+    "abort": {
+      "already_configured": "Käyttöpaikka on jo määritetty"
+    }
+  }
+}

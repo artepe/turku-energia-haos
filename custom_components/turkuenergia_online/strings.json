@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Turku EnergiaOnline (unofficial)",
+        "description": "Undocumented internal API. Enter your own data locally. PT15M is experimental and not verified.",
+        "data": {
+          "customer_code": "Customer code",
+          "metering_point_code": "Metering point code",
+          "api_key": "API subscription key",
+          "related_metering_point_code": "Related metering point (optional)",
+          "weather_location": "Weather location (optional)",
+          "resolution": "Interval resolution"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Service denied access",
+      "cannot_connect": "Could not fetch daily readings; check account parameters"
+    },
+    "abort": {
+      "already_configured": "Metering point already configured"
+    }
+  }
+}

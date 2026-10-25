@@ -1,0 +1,18 @@
+# Never commit user data, credentials or captures.
+*.har
+*.har.gz
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.log
+.env
+.env.*
+secrets.yaml
+configuration.yaml
+.storage/
+__pycache__/
+.pytest_cache/
+.venv/
+.DS_Store
+*.zip
